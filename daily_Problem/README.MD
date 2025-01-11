@@ -8,7 +8,7 @@ Example 1:
 Input: s = "annabelle", k = 2
 Output: true
 Explanation: You can construct two palindromes using all characters in s.
-Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
+Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b".
 Example 2:
 
 Input: s = "leetcode", k = 3

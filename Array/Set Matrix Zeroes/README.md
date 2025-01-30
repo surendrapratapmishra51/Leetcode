@@ -1,22 +1,18 @@
 
-#Set Matrix Zeros.#
+# Set Matrix Zeros.
 
 
-##Problem Statement##
+## Problem Statement.
 Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
-
 You must do it in place.
 
 
 _Example 1:_
-
-
 Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
 Output: [[1,0,1],[0,0,0],[1,0,1]]
 
 
 _Example_ 
-
 Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
 Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
@@ -31,7 +27,7 @@ Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
 
 
-#Approach
+# Approach
 
 
 **First Step**
@@ -62,9 +58,9 @@ Key Points:
 
 
 
-#Time Complexity:
+# Time Complexity:
  The time complexity of this solution is O(m * n) where m is the number of rows and n is the number of columns in the matrix. We make three passes over the matrix.
 
 
-#Space Complexity:
+# Space Complexity:
  The space complexity is O(m + n) due to the extra boolean arrays row[] and col[].

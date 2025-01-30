@@ -1,8 +1,8 @@
 
-#Set Matrix Zeros.
+#Set Matrix Zeros.#
 
 
-##Problem Statement
+##Problem Statement##
 Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
 
 You must do it in place.
@@ -34,7 +34,7 @@ Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 #Approach
 
 
-**First Stemp**
+**First Step**
 
 *We create two boolean arrays:*
 - row[]: To track which rows should be zeroed.

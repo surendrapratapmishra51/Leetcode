@@ -2,7 +2,7 @@
 # 4Sum
 
 
-#Problem Statement
+# Problem Statement
 Given an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:
 0 <= a, b, c, d < n
 a, b, c, and d are distinct.
@@ -23,7 +23,7 @@ Input: nums = [2,2,2,2,2], target = 8
 Output: [[2,2,2,2]]
  
 
-##Constraints:
+## Constraints:
 
 1 <= nums.length <= 200
 -109 <= nums[i] <= 109
@@ -34,10 +34,16 @@ Output: [[2,2,2,2]]
 
 Time Complexity:
 
+
 Sorting takes O(n log n).
+
 The outer loops (i and j) run in O(n^2).
+
 The inner while loop runs in O(n).
+
 Therefore, the overall time complexity is:
+
+
 𝑂
 (
 𝑛
@@ -64,6 +70,7 @@ O(nlogn)+O(n
  ⋅n)=O(n 
 3
  )
+
 Final time complexity: O(n^3).
 
 

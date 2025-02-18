@@ -32,3 +32,32 @@ class Solution {
         return true;
     }
 }
+
+
+// // # Using Hash map
+
+// class Solution {
+//     public boolean isIsomorphic(String s, String t) {
+//         int n = s.length();
+//         int m = t.length();
+//         HashMap<Character,Integer>map1 = new HashMap<>();
+//         HashMap<Character,Integer>map2 = new HashMap<>();
+//         for(int i = 0; i<n; i++){
+//             char ch1 = s.charAt(i);
+//            if(!map1.containsKey(ch1)){
+//             map1.put(ch1,i);
+//            }
+//             char ch2 = t.charAt(i);
+//             if(!map2.containsKey(ch2)){
+//             map2.put(ch2,i);
+//            }
+        
+//         if(!map1.get(ch1).equals(map2.get(ch2))){
+//             return false;
+//         }
+//         }
+       
+//         return true;
+
+//     }
+// }
